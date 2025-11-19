@@ -36,14 +36,18 @@ In some cases feature selection.
 In Lasso (least absolute shrinkage) regularization we add the **sum of the
 absolute values** of the weights as a penalty term and scale it by the lambda
 paramater.
+
 $$
 \lambda*\Sigma{| \beta |}
 $$
+
 ### L2 (Ridge) Regularization
 In ridge regression, we add the squared sum of the weights to the models objective function
+
 $$
 \lambda*\Sigma{\beta}^2
 $$
+
 ## In practice
 ### How do we find the optimal lambda?
 The lambda value determines the degree to which large coefficients are penalized. When it is 0, there is no penalty applied, but if it is to high, the coefficients will approach 0 and the model will underfit. The optimal value can be found using cross validation with different values for lambda.
