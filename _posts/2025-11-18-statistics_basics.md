@@ -4,6 +4,19 @@ title: "Statistics Basics"
 date: 2025-10-16
 toc: true
 ---
+## Measures of central tendency
+### Mean
+The mean is the average of a set of values, in other words the sum of all values divided by the number of values in the set
+
+$$
+Mean = \frac{\sigma{x_i}}{N}
+$$
+
+### Median
+The median is the middle of a set of ordered values. If there is an even number of values in the set, it is the middle two values divided by two.
+
+### Mode
+The mode is the most often occuring value in a set.
 
 ## Measures of Dispersion
 Measures of dispersion assign a value to how spread out your data is around the
