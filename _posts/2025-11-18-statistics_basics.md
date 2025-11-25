@@ -9,7 +9,7 @@ toc: true
 The mean is the average of a set of values, in other words the sum of all values divided by the number of values in the set
 
 $$
-Mean = \frac{\sigma{x_i}}{N}
+Mean = \frac{\Sigma{x_i}}{N}
 $$
 
 ### Median
